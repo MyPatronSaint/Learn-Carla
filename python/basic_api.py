@@ -28,7 +28,7 @@ def main():
         world.set_weather(weather)
 
         # create the ego vehicle
-        ego_vehicle_bp = blueprint_library.find('vehicle.mercedes-benz.coupe')
+        ego_vehicle_bp = blueprint_library.find('vehicle.mercedes.coupe')
         # black color
         ego_vehicle_bp.set_attribute('color', '0, 0, 0')
         # get a random valid occupation in the world
